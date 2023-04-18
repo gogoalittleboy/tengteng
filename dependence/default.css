@@ -1,0 +1,105 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: #ffe;
+	font-size: 14px;
+	font-family: '微软雅黑', '宋体', sans-serif;
+	color: #231F20;
+	overflow: auto;
+	-webkit-text-size-adjust: 100% !important;
+	text-size-adjust: 100% !important;
+	-moz-text-size-adjust: 100% !important;
+	box-sizing: border-box;
+}
+
+a {
+	color: #000;
+	font-size: 14px;
+}
+
+#main {
+	width: 100%;
+}
+
+#wrap {
+	position: relative;
+	margin: 0 auto;
+	width: 1100px;
+	height: 680px;
+	margin-top: 10px;
+}
+
+#text {
+	width: 430px;
+	/*height: 425px;*/
+	left: 60px;
+	top: 60px;
+	position: absolute;
+}
+
+.mywords {
+	position: absolute;
+	/*width: 390px;*/
+	width: 550px;
+	height: 200px;
+	top: 750px;
+	left: 460px;
+	font-size: 35px;
+}
+
+.ftsbig {
+	font-size: 50px;
+}
+
+#code {
+	display: none;
+	font-size: 35px;
+}
+
+#clock-box {
+	position: fixed;
+	left: 100px;
+	bottom: 30px;
+	font-size: 35px;
+	display: none;
+}
+
+#clock-box a {
+	font-size: 28px;
+	text-decoration: none;
+}
+
+#clock {
+	margin-left: 48px;
+}
+
+#clock .digit {
+	font-size: 64px;
+}
+
+#canvas {
+	margin: 0 auto;
+	width: 1100px;
+	height: 680px;
+}
+
+#error {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+	display: none;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.say {
+	margin-left: 5px;
+}
+
+
+/*.space {
+	margin-right: 150px;
+}*/
